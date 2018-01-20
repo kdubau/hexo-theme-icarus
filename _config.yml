@@ -10,11 +10,11 @@ customize:
         enabled: false
         width: 40
         height: 40
-        url: images/logo.png
+        url:
     profile:
         enabled: true # Whether to show profile bar
-        avatar: css/images/kwavatar.png
-        gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+        avatar:
+        gravatar: kdubau@gmail.com # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: Kyle White
         author_title: Software Engineer
         location: Boston, Massachusettes
