@@ -15,7 +15,7 @@ customize:
         url: images/logo.png
     profile:
         enabled: true # Whether to show profile bar
-        avatar: css/images/avatar.png
+        avatar: css/images/kwavatar.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: kdubau
         author_title: .NET, Web Developer
@@ -26,8 +26,8 @@ customize:
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links:
-        github: http://github.com/kdubau
-        twitter: /kdubau
+        github: https://github.com/kdubau
+        twitter: https://twitter.com/kdubau
         rss: /
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
