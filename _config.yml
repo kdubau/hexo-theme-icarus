@@ -87,7 +87,7 @@ miscellaneous:
     open_graph: # see http://ogp.me
         fb_app_id:
         fb_admins:
-        twitter_id:
+        twitter_id: kdubau
         google_plus:
     links:
         Hexo: http://hexo.io
