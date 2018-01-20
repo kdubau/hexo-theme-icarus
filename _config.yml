@@ -24,6 +24,7 @@ customize:
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links:
+        envelope: mailto:contact@kylewhite.me
         github: https://github.com/kdubau
         twitter: https://twitter.com/kdubau
         rss: /atom.xml
@@ -45,7 +46,7 @@ search:
 
 # Comment
 comment:
-    disqus:  # enter disqus shortname here
+    disqus: kylewhite-me # enter disqus shortname here
     duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
     facebook: # enter true to enable
