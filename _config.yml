@@ -21,7 +21,7 @@ customize:
         follow: https://github.com/kdubau/
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
-    thumbnail: true # enable posts thumbnail, options: true, false
+    thumbnail: false # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links:
         envelope: mailto:contact@kylewhite.me
@@ -29,6 +29,8 @@ customize:
         twitter: https://twitter.com/kdubau
         rss: /atom.xml
     social_link_tooltip: true # enable the social link tooltip, options: true, false
+    header:
+        url: images/header.jpg
 
 # Widgets
 widgets:
