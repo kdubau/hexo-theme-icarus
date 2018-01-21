@@ -10,6 +10,12 @@
         color: white
     a:hover
         color: #ccc
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000 );
+    transition-timing-function: cubic-bezier( 0.215, 0.610, 0.355, 1.000 );
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
 
 $header-block
     height: logo-height
@@ -194,3 +200,8 @@ $nav-link
             &::-webkit-search-results-decoration
             &::-webkit-search-cancel-button
                 -webkit-appearance: none
+
+.header-hidden
+    -webkit-transform: translateY( -102% )
+    -ms-transform: translateY( -102% )
+    transform: translateY( -102% )
