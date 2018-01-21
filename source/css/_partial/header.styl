@@ -1,13 +1,15 @@
 #header
     @extend $block
-    background: white
-    position: relative
+    background: color-link
+    position: fixed
+    width: 100%
+    z-index: 999
     a, a:visited
         white-space: nowrap
         transition: 0.2s ease
-        color: color-default
+        color: white
     a:hover
-        color: color-link
+        color: #ccc
 
 $header-block
     height: logo-height
@@ -45,7 +47,6 @@ $header-block-right
     margin-top: logo-height * -0.5
 
 .header-sub
-    border-top: 1px solid color-border
     ul
         clearfix()
         margin: 0 15px
@@ -166,7 +167,6 @@ $nav-link
     height: auto !important
     line-height: line-height
     outline: none !important
-    background: none !important
     font: font-size font-sans
     border: 1px solid color-border !important
     &:focus
